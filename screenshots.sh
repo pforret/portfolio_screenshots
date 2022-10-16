@@ -92,7 +92,7 @@ Script:main() {
         temppng="$tmp_dir/$domain.$digest.png"
         output="$out_dir/$domain.$digest.png"
       fi 
-      shot-scraper "$site" -o "$temppng" --width "$width" --height $height &>> "$log_file"
+      shot-scraper "$site" -o "$temppng" --width "$width" --height $height --wait 1000 &>> "$log_file"
 
       if [[ -f $temppng ]] ; then
           if [[ -f "$output" ]] ; then
