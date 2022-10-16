@@ -65,3 +65,53 @@ playwright._impl._api_types.Error: net::ERR_NAME_NOT_RESOLVED at https://www.chr
 navigating to "https://www.chrulie.com/", waiting until "load"
 ============================================================
 12:02:54 | [screenshots.sh] ended after 9 secs
+10:06:23 | [screenshots.sh] 0.0.0 started
+10:06:24 | [https://blog.forret.com] => [tmp/blog_forret_com.aeacbb.png]
+Screenshot of 'https://blog.forret.com' written to 'tmp/blog_forret_com.aeacbb.png'
+10:06:26 | [tmp/blog_forret_com.aeacbb.png] => [images/blog_forret_com.aeacbb.png]
+10:06:26 | [https://www.forret.com] => [tmp/www_forret_com.3b2063.png]
+Screenshot of 'https://www.forret.com' written to 'tmp/www_forret_com.3b2063.png'
+10:06:29 | [tmp/www_forret_com.3b2063.png] => [images/www_forret_com.3b2063.png]
+10:06:29 | [https://peter.forret.com] => [tmp/peter_forret_com.1d84b2.png]
+Screenshot of 'https://peter.forret.com' written to 'tmp/peter_forret_com.1d84b2.png'
+10:06:31 | [tmp/peter_forret_com.1d84b2.png] => [images/peter_forret_com.1d84b2.png]
+10:06:31 | [https://toolstud.io] => [tmp/toolstud_io.c58f0f.png]
+Screenshot of 'https://toolstud.io' written to 'tmp/toolstud_io.c58f0f.png'
+10:06:34 | [tmp/toolstud_io.c58f0f.png] => [images/toolstud_io.c58f0f.png]
+10:06:34 | [https://www.chrulie.com] => [tmp/www_chrulie_com.b6686a.png]
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.10.7/x64/bin/shot-scraper", line 8, in <module>
+    sys.exit(cli())
+  File "/opt/hostedtoolcache/Python/3.10.7/x64/lib/python3.10/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.10.7/x64/lib/python3.10/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/opt/hostedtoolcache/Python/3.10.7/x64/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/hostedtoolcache/Python/3.10.7/x64/lib/python3.10/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/hostedtoolcache/Python/3.10.7/x64/lib/python3.10/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.10.7/x64/lib/python3.10/site-packages/shot_scraper/cli.py", line 249, in shot
+    shot = take_shot(
+  File "/opt/hostedtoolcache/Python/3.10.7/x64/lib/python3.10/site-packages/shot_scraper/cli.py", line 857, in take_shot
+    page.goto(url)
+  File "/opt/hostedtoolcache/Python/3.10.7/x64/lib/python3.10/site-packages/playwright/sync_api/_generated.py", line 8114, in goto
+    self._sync(
+  File "/opt/hostedtoolcache/Python/3.10.7/x64/lib/python3.10/site-packages/playwright/_impl/_sync_base.py", line 104, in _sync
+    return task.result()
+  File "/opt/hostedtoolcache/Python/3.10.7/x64/lib/python3.10/site-packages/playwright/_impl/_page.py", line 495, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.10.7/x64/lib/python3.10/site-packages/playwright/_impl/_frame.py", line 146, in goto
+    await self._channel.send("goto", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.10.7/x64/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 43, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.10.7/x64/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 396, in wrap_api_call
+    return await cb()
+  File "/opt/hostedtoolcache/Python/3.10.7/x64/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 78, in inner_send
+    result = next(iter(done)).result()
+playwright._impl._api_types.Error: net::ERR_NAME_NOT_RESOLVED at https://www.chrulie.com/
+=========================== logs ===========================
+navigating to "https://www.chrulie.com/", waiting until "load"
+============================================================
+10:06:35 | [screenshots.sh] ended after 12 secs
