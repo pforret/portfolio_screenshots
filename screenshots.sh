@@ -84,8 +84,8 @@ Script:main() {
       digest="$(echo "$site" | Str:digest 6)"
       if [[ -z "$(echo "$site" | cut -d/ -f4-)" ]] ; then
         # is homepage
-        temppng="$tmp_dir/$domain.$digest.png"
-        output="$out_dir/$domain.$digest.png"
+        temppng="$tmp_dir/$domain.png"
+        output="$out_dir/$domain.png"
       else 
         # is a longer URL
         temppng="$tmp_dir/$domain.$digest.png"
