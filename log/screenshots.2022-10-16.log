@@ -115,3 +115,20 @@ playwright._impl._api_types.Error: net::ERR_NAME_NOT_RESOLVED at https://www.chr
 navigating to "https://www.chrulie.com/", waiting until "load"
 ============================================================
 10:06:35 | [screenshots.sh] ended after 12 secs
+10:14:52 | [screenshots.sh] 0.0.0 started
+10:14:52 | [https://blog.forret.com] => [tmp/blog_forret_com.aeacbb.png]
+Screenshot of 'https://blog.forret.com' written to 'tmp/blog_forret_com.aeacbb.png'
+10:14:53 | [tmp/blog_forret_com.aeacbb.png] => [images/blog_forret_com.aeacbb.png]
+10:14:53 | [https://www.forret.com] => [tmp/www_forret_com.3b2063.png]
+Screenshot of 'https://www.forret.com' written to 'tmp/www_forret_com.3b2063.png'
+10:14:55 | [tmp/www_forret_com.3b2063.png] => [images/www_forret_com.3b2063.png]
+10:14:55 | [https://peter.forret.com] => [tmp/peter_forret_com.1d84b2.png]
+Screenshot of 'https://peter.forret.com' written to 'tmp/peter_forret_com.1d84b2.png'
+10:14:57 | [tmp/peter_forret_com.1d84b2.png] => [images/peter_forret_com.1d84b2.png]
+10:14:57 | [https://toolstud.io] => [tmp/toolstud_io.c58f0f.png]
+Screenshot of 'https://toolstud.io' written to 'tmp/toolstud_io.c58f0f.png'
+10:14:59 | [tmp/toolstud_io.c58f0f.png] => [images/toolstud_io.c58f0f.png]
+10:14:59 | [https://www.churlie.com] => [tmp/www_churlie_com.8a956b.png]
+Screenshot of 'https://www.churlie.com' written to 'tmp/www_churlie_com.8a956b.png'
+10:15:00 | [tmp/www_churlie_com.8a956b.png] => [images/www_churlie_com.8a956b.png]
+10:15:00 | [screenshots.sh] ended after 9 secs
