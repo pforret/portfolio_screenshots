@@ -830,3 +830,56 @@ Screenshot of 'https://ingevanderhaegen.be' written to 'tmp/ingevanderhaegen_be.
 13:40:48 | move [tmp/ingevanderhaegen_be.png] -> [images/ingevanderhaegen_be.png]
 13:40:48 | [screenshots.sh] ended after 17 secs
 13:40:48 | --------------------------------------------------
+11:42:40 | [screenshots.sh] 0.1.2 started
+11:42:40 | shot-scraper [https://blog.forret.com] => [tmp/blog_forret_com.png]
+Screenshot of 'https://blog.forret.com' written to 'tmp/blog_forret_com.png'
+11:42:43 | [tmp/blog_forret_com.png] => [images/blog_forret_com.png]
+11:42:43 | WARNING: could not find [images/blog_forret_com.png]
+11:42:43 | move [tmp/blog_forret_com.png] -> [images/blog_forret_com.png]
+11:42:43 | shot-scraper [https://www.forret.com] => [tmp/www_forret_com.png]
+Screenshot of 'https://www.forret.com' written to 'tmp/www_forret_com.png'
+11:42:45 | [tmp/www_forret_com.png] => [images/www_forret_com.png]
+11:42:45 | WARNING: could not find [images/www_forret_com.png]
+11:42:45 | move [tmp/www_forret_com.png] -> [images/www_forret_com.png]
+11:42:45 | shot-scraper [https://peter.forret.com] => [tmp/peter_forret_com.png]
+Screenshot of 'https://peter.forret.com' written to 'tmp/peter_forret_com.png'
+11:42:48 | [tmp/peter_forret_com.png] => [images/peter_forret_com.png]
+11:42:48 | WARNING: could not find [images/peter_forret_com.png]
+11:42:48 | move [tmp/peter_forret_com.png] -> [images/peter_forret_com.png]
+11:42:48 | shot-scraper [https://github.com/pforret] => [tmp/github_com.6e1aca.png]
+Screenshot of 'https://github.com/pforret' written to 'tmp/github_com.6e1aca.png'
+11:42:50 | [tmp/github_com.6e1aca.png] => [images/github_com.6e1aca.png]
+11:42:50 | first removing [images/github_com.6e1aca.png]
+11:42:50 | move [tmp/github_com.6e1aca.png] -> [images/github_com.6e1aca.png]
+11:42:50 | shot-scraper [https://toolstud.io] => [tmp/toolstud_io.png]
+Screenshot of 'https://toolstud.io' written to 'tmp/toolstud_io.png'
+11:42:52 | [tmp/toolstud_io.png] => [images/toolstud_io.png]
+11:42:52 | WARNING: could not find [images/toolstud_io.png]
+11:42:52 | move [tmp/toolstud_io.png] -> [images/toolstud_io.png]
+11:42:52 | shot-scraper [https://www.churlie.com] => [tmp/www_churlie_com.png]
+Screenshot of 'https://www.churlie.com' written to 'tmp/www_churlie_com.png'
+11:42:55 | [tmp/www_churlie_com.png] => [images/www_churlie_com.png]
+11:42:55 | WARNING: could not find [images/www_churlie_com.png]
+11:42:55 | move [tmp/www_churlie_com.png] -> [images/www_churlie_com.png]
+11:42:55 | shot-scraper [https://usage.toolstud.io] => [tmp/usage_toolstud_io.png]
+Screenshot of 'https://usage.toolstud.io' written to 'tmp/usage_toolstud_io.png'
+11:42:57 | [tmp/usage_toolstud_io.png] => [images/usage_toolstud_io.png]
+11:42:57 | WARNING: could not find [images/usage_toolstud_io.png]
+11:42:57 | move [tmp/usage_toolstud_io.png] -> [images/usage_toolstud_io.png]
+11:42:57 | shot-scraper [https://onlythebestportraits.com] => [tmp/onlythebestportraits_com.png]
+Screenshot of 'https://onlythebestportraits.com' written to 'tmp/onlythebestportraits_com.png'
+11:43:01 | [tmp/onlythebestportraits_com.png] => [images/onlythebestportraits_com.png]
+11:43:01 | WARNING: could not find [images/onlythebestportraits_com.png]
+11:43:01 | move [tmp/onlythebestportraits_com.png] -> [images/onlythebestportraits_com.png]
+11:43:01 | shot-scraper [https://maroshee.com] => [tmp/maroshee_com.png]
+Screenshot of 'https://maroshee.com' written to 'tmp/maroshee_com.png'
+11:43:06 | [tmp/maroshee_com.png] => [images/maroshee_com.png]
+11:43:06 | WARNING: could not find [images/maroshee_com.png]
+11:43:06 | move [tmp/maroshee_com.png] -> [images/maroshee_com.png]
+11:43:06 | shot-scraper [https://ingevanderhaegen.be] => [tmp/ingevanderhaegen_be.png]
+Screenshot of 'https://ingevanderhaegen.be' written to 'tmp/ingevanderhaegen_be.png'
+11:43:09 | [tmp/ingevanderhaegen_be.png] => [images/ingevanderhaegen_be.png]
+11:43:09 | WARNING: could not find [images/ingevanderhaegen_be.png]
+11:43:09 | move [tmp/ingevanderhaegen_be.png] -> [images/ingevanderhaegen_be.png]
+11:43:09 | [screenshots.sh] ended after 30 secs
+11:43:09 | --------------------------------------------------
