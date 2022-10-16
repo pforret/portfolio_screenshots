@@ -121,6 +121,7 @@ Script:main() {
 
     IO:progress "get Github updates..."
     git pull
+    exit 0
     ;;
 
   gha:update)
