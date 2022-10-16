@@ -54,7 +54,7 @@ option|t|tmp_dir|folder for temp files|tmp
 option|o|out_dir|output folder for screenshots|images
 option|w|width|screenshot width|800
 option|h|height|screenshot height|800
-choice|1|action|action to perform|multi,action2,check,env,update
+choice|1|action|action to perform|multi,deploy,check,env,update
 param|?|input|input file/text
 " grep -v -e '^#' -e '^\s*$'
 }
@@ -111,10 +111,18 @@ Script:main() {
     done 
     ;;
 
-  action2)
-    #TIP: use «$script_prefix action2» to ...
-    #TIP:> $script_prefix action2
-    do_action2
+  deploy)
+    #TIP: use «$script_prefix deploy» to ...
+    #TIP:> $script_prefix deploy
+    IO:progress "create screenshots..."
+    "$0" multi sites.txt
+    IO:progress "git commit and push..."
+    setver auto
+
+    IO:progress "wait for Github action..."
+    sleep 60
+    IO:progress "get Github updates..."
+    git pull
     ;;
 
   check | env)
@@ -155,8 +163,8 @@ do_multi() {
   # (code)
 }
 
-do_action2() {
-  IO:log "action2"
+do_deploy() {
+  IO:log "deploy"
   # (code)
 
 }
