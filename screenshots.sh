@@ -116,6 +116,8 @@ Script:main() {
     #TIP:> $script_prefix deploy
     IO:progress "create screenshots..."
     "$0" multi sites.txt
+    git add images
+    git add log
     IO:progress "git commit and push..."
     setver auto
 
