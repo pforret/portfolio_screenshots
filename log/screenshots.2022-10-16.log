@@ -1,0 +1,20 @@
+10:30:50 | [screenshots.sh] 0.1.0 started
+10:30:50 | [https://blog.forret.com] => [tmp/blog_forret_com.aeacbb.png]
+Screenshot of 'https://blog.forret.com' written to 'tmp/blog_forret_com.aeacbb.png'
+10:30:53 | [tmp/blog_forret_com.aeacbb.png] => [images/blog_forret_com.aeacbb.png]
+10:30:53 | [https://www.forret.com] => [tmp/www_forret_com.3b2063.png]
+Screenshot of 'https://www.forret.com' written to 'tmp/www_forret_com.3b2063.png'
+10:30:56 | [tmp/www_forret_com.3b2063.png] => [images/www_forret_com.3b2063.png]
+10:30:56 | [https://peter.forret.com] => [tmp/peter_forret_com.1d84b2.png]
+Screenshot of 'https://peter.forret.com' written to 'tmp/peter_forret_com.1d84b2.png'
+10:30:58 | [tmp/peter_forret_com.1d84b2.png] => [images/peter_forret_com.1d84b2.png]
+10:30:58 | [https://toolstud.io] => [tmp/toolstud_io.c58f0f.png]
+Screenshot of 'https://toolstud.io' written to 'tmp/toolstud_io.c58f0f.png'
+10:31:00 | [tmp/toolstud_io.c58f0f.png] => [images/toolstud_io.c58f0f.png]
+10:31:00 | [https://www.churlie.com] => [tmp/www_churlie_com.8a956b.png]
+Screenshot of 'https://www.churlie.com' written to 'tmp/www_churlie_com.8a956b.png'
+10:31:02 | [tmp/www_churlie_com.8a956b.png] => [images/www_churlie_com.8a956b.png]
+10:31:02 | [https://fwdvi.be] => [tmp/fwdvi_be.bd0a3d.png]
+Screenshot of 'https://fwdvi.be' written to 'tmp/fwdvi_be.bd0a3d.png'
+10:31:04 | [tmp/fwdvi_be.bd0a3d.png] => [images/fwdvi_be.bd0a3d.png]
+10:31:04 | [screenshots.sh] ended after 14 secs
