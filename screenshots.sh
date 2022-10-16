@@ -82,7 +82,7 @@ Script:main() {
     | while read -r site ; do
       domain="$(echo "$site" | awk -F/ '{domain=tolower($3); gsub(/[^a-z0-9]/,"_",domain); print domain}')"
       digest="$(echo "$site" | Str:digest 6)"
-      if [[ -z "$(echo $"site" | cut -d/ -f4-)" ]] ; then
+      if [[ -z "$(echo "$site" | cut -d/ -f4-)" ]] ; then
         # is homepage
         temppng="$tmp_dir/$domain.$digest.png"
         output="$out_dir/$domain.$digest.png"
