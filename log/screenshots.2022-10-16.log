@@ -612,3 +612,56 @@ Screenshot of 'https://ingevanderhaegen.be' written to 'tmp/ingevanderhaegen_be.
 13:27:11 | move [tmp/ingevanderhaegen_be.24bd1f.png] -> [images/ingevanderhaegen_be.24bd1f.png]
 13:27:11 | [screenshots.sh] ended after 15 secs
 13:27:11 | --------------------------------------------------
+11:27:51 | [screenshots.sh] 0.1.2 started
+11:27:51 | shot-scraper [https://blog.forret.com] => [tmp/blog_forret_com.aeacbb.png]
+Screenshot of 'https://blog.forret.com' written to 'tmp/blog_forret_com.aeacbb.png'
+11:27:54 | [tmp/blog_forret_com.aeacbb.png] => [images/blog_forret_com.aeacbb.png]
+11:27:54 | first removing [images/blog_forret_com.aeacbb.png]
+11:27:54 | move [tmp/blog_forret_com.aeacbb.png] -> [images/blog_forret_com.aeacbb.png]
+11:27:54 | shot-scraper [https://www.forret.com] => [tmp/www_forret_com.3b2063.png]
+Screenshot of 'https://www.forret.com' written to 'tmp/www_forret_com.3b2063.png'
+11:27:56 | [tmp/www_forret_com.3b2063.png] => [images/www_forret_com.3b2063.png]
+11:27:56 | first removing [images/www_forret_com.3b2063.png]
+11:27:56 | move [tmp/www_forret_com.3b2063.png] -> [images/www_forret_com.3b2063.png]
+11:27:56 | shot-scraper [https://peter.forret.com] => [tmp/peter_forret_com.1d84b2.png]
+Screenshot of 'https://peter.forret.com' written to 'tmp/peter_forret_com.1d84b2.png'
+11:27:58 | [tmp/peter_forret_com.1d84b2.png] => [images/peter_forret_com.1d84b2.png]
+11:27:58 | first removing [images/peter_forret_com.1d84b2.png]
+11:27:58 | move [tmp/peter_forret_com.1d84b2.png] -> [images/peter_forret_com.1d84b2.png]
+11:27:58 | shot-scraper [https://github.com/pforret] => [tmp/github_com.6e1aca.png]
+Screenshot of 'https://github.com/pforret' written to 'tmp/github_com.6e1aca.png'
+11:28:00 | [tmp/github_com.6e1aca.png] => [images/github_com.6e1aca.png]
+11:28:00 | first removing [images/github_com.6e1aca.png]
+11:28:00 | move [tmp/github_com.6e1aca.png] -> [images/github_com.6e1aca.png]
+11:28:00 | shot-scraper [https://toolstud.io] => [tmp/toolstud_io.c58f0f.png]
+Screenshot of 'https://toolstud.io' written to 'tmp/toolstud_io.c58f0f.png'
+11:28:01 | [tmp/toolstud_io.c58f0f.png] => [images/toolstud_io.c58f0f.png]
+11:28:01 | first removing [images/toolstud_io.c58f0f.png]
+11:28:01 | move [tmp/toolstud_io.c58f0f.png] -> [images/toolstud_io.c58f0f.png]
+11:28:01 | shot-scraper [https://www.churlie.com] => [tmp/www_churlie_com.8a956b.png]
+Screenshot of 'https://www.churlie.com' written to 'tmp/www_churlie_com.8a956b.png'
+11:28:03 | [tmp/www_churlie_com.8a956b.png] => [images/www_churlie_com.8a956b.png]
+11:28:03 | first removing [images/www_churlie_com.8a956b.png]
+11:28:03 | move [tmp/www_churlie_com.8a956b.png] -> [images/www_churlie_com.8a956b.png]
+11:28:03 | shot-scraper [https://usage.toolstud.io] => [tmp/usage_toolstud_io.b34e33.png]
+Screenshot of 'https://usage.toolstud.io' written to 'tmp/usage_toolstud_io.b34e33.png'
+11:28:04 | [tmp/usage_toolstud_io.b34e33.png] => [images/usage_toolstud_io.b34e33.png]
+11:28:04 | first removing [images/usage_toolstud_io.b34e33.png]
+11:28:04 | move [tmp/usage_toolstud_io.b34e33.png] -> [images/usage_toolstud_io.b34e33.png]
+11:28:04 | shot-scraper [https://onlythebestportraits.com] => [tmp/onlythebestportraits_com.3f5a64.png]
+Screenshot of 'https://onlythebestportraits.com' written to 'tmp/onlythebestportraits_com.3f5a64.png'
+11:28:07 | [tmp/onlythebestportraits_com.3f5a64.png] => [images/onlythebestportraits_com.3f5a64.png]
+11:28:07 | first removing [images/onlythebestportraits_com.3f5a64.png]
+11:28:07 | move [tmp/onlythebestportraits_com.3f5a64.png] -> [images/onlythebestportraits_com.3f5a64.png]
+11:28:07 | shot-scraper [https://maroshee.com] => [tmp/maroshee_com.9381ff.png]
+Screenshot of 'https://maroshee.com' written to 'tmp/maroshee_com.9381ff.png'
+11:28:09 | [tmp/maroshee_com.9381ff.png] => [images/maroshee_com.9381ff.png]
+11:28:09 | first removing [images/maroshee_com.9381ff.png]
+11:28:09 | move [tmp/maroshee_com.9381ff.png] -> [images/maroshee_com.9381ff.png]
+11:28:09 | shot-scraper [https://ingevanderhaegen.be] => [tmp/ingevanderhaegen_be.24bd1f.png]
+Screenshot of 'https://ingevanderhaegen.be' written to 'tmp/ingevanderhaegen_be.24bd1f.png'
+11:28:11 | [tmp/ingevanderhaegen_be.24bd1f.png] => [images/ingevanderhaegen_be.24bd1f.png]
+11:28:11 | first removing [images/ingevanderhaegen_be.24bd1f.png]
+11:28:11 | move [tmp/ingevanderhaegen_be.24bd1f.png] -> [images/ingevanderhaegen_be.24bd1f.png]
+11:28:11 | [screenshots.sh] ended after 20 secs
+11:28:11 | --------------------------------------------------
