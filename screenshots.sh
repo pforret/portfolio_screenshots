@@ -81,15 +81,23 @@ Script:main() {
       domain="$(echo "$site" | awk -F/ '{domain=tolower($3); gsub(/[^a-z0-9]/,"_",domain); print domain}')"
       digest="$(echo "$site" | Str:digest 6)"
       temppng="$tmp_dir/$domain.$digest.png"
-      IO:log "[$site] => [$temppng]"
+      IO:log "shot-scraper [$site] => [$temppng]"
       shot-scraper "$site" -o "$temppng" --width "$width" --height $height &>> "$log_file"
 
       output="$out_dir/$domain.$digest.png"
       if [[ -f $temppng ]] ; then
           IO:log "[$temppng] => [$output]"
-          [[ -f "$output" ]] && rm "$output"
+          if [[ -f "$output" ]] ; then
+            IO:log "first removing [$output]"
+            rm "$output"
+          else 
+            IO:log "WARNING: could not find [$output]"
+          fi 
+          IO:log "move [$temppng] -> [$output]"
           mv "$temppng" "$output"
           IO:print "$output"
+      else 
+        IO:log "WARNING: could not find [$temppng]"
       fi
     done \
     < "$input"
