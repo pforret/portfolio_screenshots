@@ -133,9 +133,12 @@ Script:main() {
     git add -A
     timestamp=$(date -u)
     message="$timestamp < $script_basename $script_version < ${os_name=-} ${os_version:-}"
+    IO:log "Finishing GitHub Action: $message"
+    # don't modify any file after the next line, so also no log file
     git commit -m "${message}" || exit 0
     git pull --rebase
     git push
+    exit 0
 
     ;;
 
