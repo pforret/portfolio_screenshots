@@ -54,7 +54,7 @@ option|t|tmp_dir|folder for temp files|tmp
 option|o|out_dir|output folder for screenshots|images
 option|w|width|screenshot width|800
 option|h|height|screenshot height|800
-choice|1|action|action to perform|multi,deploy,gha:update,check,env,update
+choice|1|action|action to perform|multi,gha:deploy,gha:update,check,env,update
 param|?|input|input file/text
 " grep -v -e '^#' -e '^\s*$'
 }
@@ -106,18 +106,19 @@ Script:main() {
     done 
     ;;
 
-  deploy)
+  gha:deploy)
     #TIP: use «$script_prefix deploy» to ...
     #TIP:> $script_prefix deploy
-    IO:progress "create screenshots..."
-    "$0" multi sites.txt
-    git add images
-    git add log
+    # IO:progress "create screenshots..."
+    # "$0" multi sites.txt
+    # git add images
+    # git add log
     IO:progress "git commit and push..."
     setver auto
 
     IO:progress "wait for Github action..."
-    sleep 60
+    IO:countdown 60
+
     IO:progress "get Github updates..."
     git pull
     ;;
@@ -126,7 +127,7 @@ Script:main() {
     #TIP: use «$script_prefix gha:update to ...
     #TIP:> $script_prefix deploy
 
-    [[ -z "${RUNNER_OS:-}" ]] && IO:die "This should onyl run in a Github Action, don't run it on your machine"
+    [[ -z "${RUNNER_OS:-}" ]] && IO:die "This should only run inside a Github Action, don't run it on your machine"
     git config user.name "Bashew Runner"
     git config user.email "actions@users.noreply.github.com"
     git add -A
@@ -289,6 +290,16 @@ function IO:progress() {
       printf "... %-${rest_of_line}b\r" "$*                                             " >&2
     fi
   )
+}
+
+function IO:countdown(){
+  local seconds=${1:-5}
+
+  for (( i = 0; i < $seconds; i++ )); do
+    IO:progress "Countdown: $((seconds - i))"
+    sleep 1
+  done
+
 }
 
 ### interactive

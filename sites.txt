@@ -4,11 +4,18 @@ https://www.forret.com
 https://peter.forret.com
 https://github.com/pforret
 
+# bashful scripting
+https://blog.forret.com/portfolio/bashful/
+https://github.com/pforret/bashew
+https://www.getrevue.co/profile/bashful
+https://www.basher.it/package/
+
 # sideprojects
 https://toolstud.io
 https://www.churlie.com
 https://usage.toolstud.io
 https://splashing.forret.com/
+https://nuuz.io/tech
 
 # other people's projects
 https://onlythebestportraits.com
