@@ -91,22 +91,17 @@ Script:main() {
         temppng="$tmp_dir/$domain.$digest.png"
         output="$out_dir/$domain.$digest.png"
       fi 
-      IO:log "shot-scraper [$site] => [$temppng]"
       shot-scraper "$site" -o "$temppng" --width "$width" --height $height &>> "$log_file"
 
       if [[ -f $temppng ]] ; then
           IO:log "[$temppng] => [$output]"
           if [[ -f "$output" ]] ; then
-            IO:log "first removing [$output]"
             rm "$output"
           else 
             IO:log "WARNING: could not find [$output]"
           fi 
-          IO:log "move [$temppng] -> [$output]"
           mv "$temppng" "$output"
           IO:print "$output"
-      else 
-        IO:log "WARNING: could not find [$temppng]"
       fi
     done 
     ;;
