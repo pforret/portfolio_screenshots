@@ -37,7 +37,7 @@ jobs:
         shot-scraper install
     - name: Take shots
       run: |
-        screenshots.sh multi sites.txt
+        ./screenshots.sh multi sites.txt
     - name: Commit and push
       run: |-
         git config user.name "Automated"
