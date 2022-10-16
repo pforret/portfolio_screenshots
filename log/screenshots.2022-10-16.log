@@ -1099,3 +1099,29 @@ Screenshot of 'https://ingevanderhaegen.be' written to 'tmp/ingevanderhaegen_be.
 13:11:11 | [screenshots.sh] ended after 25 secs
 13:11:11 | --------------------------------------------------
 13:11:11 | [screenshots.sh] 0.2.1 started
+13:12:44 | [screenshots.sh] 0.2.2 started
+Screenshot of 'https://blog.forret.com' written to 'tmp/blog_forret_com.png'
+13:12:47 | [tmp/blog_forret_com.png] => [images/blog_forret_com.png]
+Screenshot of 'https://www.forret.com' written to 'tmp/www_forret_com.png'
+13:12:50 | [tmp/www_forret_com.png] => [images/www_forret_com.png]
+Screenshot of 'https://peter.forret.com' written to 'tmp/peter_forret_com.png'
+13:12:52 | [tmp/peter_forret_com.png] => [images/peter_forret_com.png]
+Screenshot of 'https://github.com/pforret' written to 'tmp/github_com.6e1aca.png'
+13:12:55 | [tmp/github_com.6e1aca.png] => [images/github_com.6e1aca.png]
+Screenshot of 'https://toolstud.io' written to 'tmp/toolstud_io.png'
+13:12:57 | [tmp/toolstud_io.png] => [images/toolstud_io.png]
+Screenshot of 'https://www.churlie.com' written to 'tmp/www_churlie_com.png'
+13:12:59 | [tmp/www_churlie_com.png] => [images/www_churlie_com.png]
+Screenshot of 'https://usage.toolstud.io' written to 'tmp/usage_toolstud_io.png'
+13:13:02 | [tmp/usage_toolstud_io.png] => [images/usage_toolstud_io.png]
+Screenshot of 'https://splashing.forret.com/' written to 'tmp/splashing_forret_com.png'
+13:13:04 | [tmp/splashing_forret_com.png] => [images/splashing_forret_com.png]
+Screenshot of 'https://onlythebestportraits.com' written to 'tmp/onlythebestportraits_com.png'
+13:13:08 | [tmp/onlythebestportraits_com.png] => [images/onlythebestportraits_com.png]
+Screenshot of 'https://maroshee.com' written to 'tmp/maroshee_com.png'
+13:13:11 | [tmp/maroshee_com.png] => [images/maroshee_com.png]
+Screenshot of 'https://ingevanderhaegen.be' written to 'tmp/ingevanderhaegen_be.png'
+13:13:14 | [tmp/ingevanderhaegen_be.png] => [images/ingevanderhaegen_be.png]
+13:13:14 | [screenshots.sh] ended after 30 secs
+13:13:14 | --------------------------------------------------
+13:13:14 | [screenshots.sh] 0.2.2 started
