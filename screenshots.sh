@@ -131,6 +131,7 @@ Script:main() {
     #TIP: use «$script_prefix gha:update to ...
     #TIP:> $script_prefix deploy
 
+    [[ -z "${RUNNER_OS:-}" ]] && die "This should onyl run in a Github Action, don't run it on your machine"
     git config user.name "Bashew Runner"
     git config user.email "actions@users.noreply.github.com"
     git add -A
