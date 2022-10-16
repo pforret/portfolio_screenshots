@@ -18,3 +18,30 @@ Screenshot of 'https://www.churlie.com' written to 'tmp/www_churlie_com.8a956b.p
 Screenshot of 'https://fwdvi.be' written to 'tmp/fwdvi_be.bd0a3d.png'
 10:31:04 | [tmp/fwdvi_be.bd0a3d.png] => [images/fwdvi_be.bd0a3d.png]
 10:31:04 | [screenshots.sh] ended after 14 secs
+10:41:52 | [screenshots.sh] 0.1.1 started
+10:41:52 | shot-scraper [https://blog.forret.com] => [tmp/blog_forret_com.aeacbb.png]
+Screenshot of 'https://blog.forret.com' written to 'tmp/blog_forret_com.aeacbb.png'
+10:41:54 | [tmp/blog_forret_com.aeacbb.png] => [images/blog_forret_com.aeacbb.png]
+10:41:54 | first removing [images/blog_forret_com.aeacbb.png]
+10:41:54 | move [tmp/blog_forret_com.aeacbb.png] -> [images/blog_forret_com.aeacbb.png]
+10:41:54 | shot-scraper [https://www.forret.com] => [tmp/www_forret_com.3b2063.png]
+Screenshot of 'https://www.forret.com' written to 'tmp/www_forret_com.3b2063.png'
+10:41:57 | [tmp/www_forret_com.3b2063.png] => [images/www_forret_com.3b2063.png]
+10:41:57 | first removing [images/www_forret_com.3b2063.png]
+10:41:57 | move [tmp/www_forret_com.3b2063.png] -> [images/www_forret_com.3b2063.png]
+10:41:57 | shot-scraper [https://peter.forret.com] => [tmp/peter_forret_com.1d84b2.png]
+Screenshot of 'https://peter.forret.com' written to 'tmp/peter_forret_com.1d84b2.png'
+10:41:59 | [tmp/peter_forret_com.1d84b2.png] => [images/peter_forret_com.1d84b2.png]
+10:41:59 | first removing [images/peter_forret_com.1d84b2.png]
+10:41:59 | move [tmp/peter_forret_com.1d84b2.png] -> [images/peter_forret_com.1d84b2.png]
+10:41:59 | shot-scraper [https://toolstud.io] => [tmp/toolstud_io.c58f0f.png]
+Screenshot of 'https://toolstud.io' written to 'tmp/toolstud_io.c58f0f.png'
+10:42:00 | [tmp/toolstud_io.c58f0f.png] => [images/toolstud_io.c58f0f.png]
+10:42:00 | first removing [images/toolstud_io.c58f0f.png]
+10:42:00 | move [tmp/toolstud_io.c58f0f.png] -> [images/toolstud_io.c58f0f.png]
+10:42:00 | shot-scraper [https://www.churlie.com] => [tmp/www_churlie_com.8a956b.png]
+Screenshot of 'https://www.churlie.com' written to 'tmp/www_churlie_com.8a956b.png'
+10:42:02 | [tmp/www_churlie_com.8a956b.png] => [images/www_churlie_com.8a956b.png]
+10:42:02 | first removing [images/www_churlie_com.8a956b.png]
+10:42:02 | move [tmp/www_churlie_com.8a956b.png] -> [images/www_churlie_com.8a956b.png]
+10:42:02 | [screenshots.sh] ended after 10 secs
