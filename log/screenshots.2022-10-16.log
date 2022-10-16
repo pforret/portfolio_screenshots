@@ -1172,3 +1172,39 @@ Screenshot of 'https://ingevanderhaegen.be' written to 'tmp/ingevanderhaegen_be.
 16:29:11 | --------------------------------------------------
 16:49:11 | [screenshots.sh] 0.2.2 started
 16:49:16 | --------------------------------------------------
+14:52:40 | [screenshots.sh] 0.2.2 started
+Screenshot of 'https://blog.forret.com' written to 'tmp/blog_forret_com.png'
+14:52:43 | [tmp/blog_forret_com.png] => [images/blog_forret_com.png]
+Screenshot of 'https://www.forret.com' written to 'tmp/www_forret_com.png'
+14:52:45 | [tmp/www_forret_com.png] => [images/www_forret_com.png]
+Screenshot of 'https://peter.forret.com' written to 'tmp/peter_forret_com.png'
+14:52:47 | [tmp/peter_forret_com.png] => [images/peter_forret_com.png]
+Screenshot of 'https://github.com/pforret' written to 'tmp/github_com.6e1aca.png'
+14:52:50 | [tmp/github_com.6e1aca.png] => [images/github_com.6e1aca.png]
+Screenshot of 'https://blog.forret.com/portfolio/bashful/' written to 'tmp/blog_forret_com.381c88.png'
+14:52:52 | [tmp/blog_forret_com.381c88.png] => [images/blog_forret_com.381c88.png]
+Screenshot of 'https://github.com/pforret/bashew' written to 'tmp/github_com.3bd4e0.png'
+14:52:53 | [tmp/github_com.3bd4e0.png] => [images/github_com.3bd4e0.png]
+Screenshot of 'https://www.getrevue.co/profile/bashful' written to 'tmp/www_getrevue_co.b35422.png'
+14:52:55 | [tmp/www_getrevue_co.b35422.png] => [images/www_getrevue_co.b35422.png]
+Screenshot of 'https://www.basher.it/package/' written to 'tmp/www_basher_it.c19359.png'
+14:52:57 | [tmp/www_basher_it.c19359.png] => [images/www_basher_it.c19359.png]
+Screenshot of 'https://toolstud.io' written to 'tmp/toolstud_io.png'
+14:52:58 | [tmp/toolstud_io.png] => [images/toolstud_io.png]
+Screenshot of 'https://www.churlie.com' written to 'tmp/www_churlie_com.png'
+14:53:00 | [tmp/www_churlie_com.png] => [images/www_churlie_com.png]
+Screenshot of 'https://usage.toolstud.io' written to 'tmp/usage_toolstud_io.png'
+14:53:02 | [tmp/usage_toolstud_io.png] => [images/usage_toolstud_io.png]
+Screenshot of 'https://splashing.forret.com/' written to 'tmp/splashing_forret_com.png'
+14:53:03 | [tmp/splashing_forret_com.png] => [images/splashing_forret_com.png]
+Screenshot of 'https://nuuz.io/tech' written to 'tmp/nuuz_io.6da9ea.png'
+14:53:17 | [tmp/nuuz_io.6da9ea.png] => [images/nuuz_io.6da9ea.png]
+Screenshot of 'https://onlythebestportraits.com' written to 'tmp/onlythebestportraits_com.png'
+14:53:20 | [tmp/onlythebestportraits_com.png] => [images/onlythebestportraits_com.png]
+Screenshot of 'https://maroshee.com' written to 'tmp/maroshee_com.png'
+14:53:22 | [tmp/maroshee_com.png] => [images/maroshee_com.png]
+Screenshot of 'https://ingevanderhaegen.be' written to 'tmp/ingevanderhaegen_be.png'
+14:53:24 | [tmp/ingevanderhaegen_be.png] => [images/ingevanderhaegen_be.png]
+14:53:24 | [screenshots.sh] ended after 44 secs
+14:53:24 | --------------------------------------------------
+14:53:24 | [screenshots.sh] 0.2.2 started
