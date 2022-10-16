@@ -405,6 +405,7 @@ Script:exit() {
   done
   trap - INT TERM EXIT
   IO:debug "$script_basename finished after $SECONDS seconds"
+  IO:log "--------------------------------------------------"
   exit 0
 }
 
