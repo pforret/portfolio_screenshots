@@ -904,10 +904,6 @@ function Os:beep(){
 function Script:meta() {
   local git_repo_remote=""
   local git_repo_root=""
-  local os_kernel=""
-  local os_machine=""
-  local os_name=""
-  local os_version=""
   local script_hash="?"
   local script_lines="?"
   local shell_brand=""
