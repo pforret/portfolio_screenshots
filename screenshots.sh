@@ -131,7 +131,7 @@ Script:main() {
     git config user.email "actions@users.noreply.github.com"
     git add -A
     timestamp=$(date -u)
-    message="$timestamp < $script_basename $script_version < bash $BASH_VERSION < ${os_name=-} ${os_version:-}"
+    message="$timestamp < $script_basename $script_version < ${os_name=-} ${os_version:-}"
     git commit -m "${message}" || exit 0
     git pull --rebase
     git push
