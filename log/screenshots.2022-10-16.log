@@ -942,6 +942,7 @@ Screenshot of 'https://ingevanderhaegen.be' written to 'tmp/ingevanderhaegen_be.
 13:43:38 | [screenshots.sh] ended after 15 secs
 13:43:38 | --------------------------------------------------
 >>>>>>> e9aac3d (ADD: blog_forret_com.png ingevanderhaegen_be.png maroshee_com.png onlythebestportraits_com.png peter_forret_com.png toolstud_io.png usage_toolstud_io.png www_churlie_com.png www_forret_com.png, MOD: github_com.6e1aca.png screenshots.2022-10-16.log screenshots.sh)
+<<<<<<< HEAD
 12:45:56 | [screenshots.sh] 0.1.2 started
 12:45:56 | shot-scraper [https://blog.forret.com] => [tmp/blog_forret_com.png]
 Screenshot of 'https://blog.forret.com' written to 'tmp/blog_forret_com.png'
@@ -995,3 +996,11 @@ Screenshot of 'https://ingevanderhaegen.be' written to 'tmp/ingevanderhaegen_be.
 12:46:22 | move [tmp/ingevanderhaegen_be.png] -> [images/ingevanderhaegen_be.png]
 12:46:22 | [screenshots.sh] ended after 26 secs
 12:46:22 | --------------------------------------------------
+=======
+14:56:19 | [screenshots.sh] 0.1.2 started
+14:56:19 | --------------------------------------------------
+14:57:01 | [screenshots.sh] 0.1.2 started
+>>>>>>> 3277756 (Sun Oct 16 12:57:01 PM UTC 2022 < screenshots.sh 0.1.2 < bash 5.1.16(1)-release < -)
+14:57:03 | [screenshots.sh] ended after 2 secs
+14:57:03 | --------------------------------------------------
+14:57:29 | [screenshots.sh] 0.1.2 started

@@ -54,7 +54,7 @@ option|t|tmp_dir|folder for temp files|tmp
 option|o|out_dir|output folder for screenshots|images
 option|w|width|screenshot width|800
 option|h|height|screenshot height|800
-choice|1|action|action to perform|multi,deploy,check,env,update
+choice|1|action|action to perform|multi,deploy,gha:update,check,env,update
 param|?|input|input file/text
 " grep -v -e '^#' -e '^\s*$'
 }
@@ -125,6 +125,21 @@ Script:main() {
     sleep 60
     IO:progress "get Github updates..."
     git pull
+    ;;
+
+  gha:update)
+    #TIP: use «$script_prefix gha:update to ...
+    #TIP:> $script_prefix deploy
+
+    git config user.name "Bashew Runner"
+    git config user.email "actions@users.noreply.github.com"
+    git add -A
+    timestamp=$(date -u)
+    message="$timestamp < $script_basename $script_version < bash $BASH_VERSION < ${os_name=-} ${os_version:-}"
+    git commit -m "${message}" || exit 0
+    git pull --rebase
+    git push
+
     ;;
 
   check | env)
