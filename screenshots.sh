@@ -77,14 +77,23 @@ Script:main() {
     Os:require shot-scraper "pip install shot-scraper"
     [[ ! -d "$out_dir" ]] && mkdir -p "$out_dir"
 
-    while read -r site ; do
+    grep -v "^#" "$input" \
+    | grep -v '^$' \
+    | while read -r site ; do
       domain="$(echo "$site" | awk -F/ '{domain=tolower($3); gsub(/[^a-z0-9]/,"_",domain); print domain}')"
       digest="$(echo "$site" | Str:digest 6)"
-      temppng="$tmp_dir/$domain.$digest.png"
+      if [[ -z "$(echo $"site" | cut -d/ -f4-)" ]] ; then
+        # is homepage
+        temppng="$tmp_dir/$domain.$digest.png"
+        output="$out_dir/$domain.$digest.png"
+      else 
+        # is a longer URL
+        temppng="$tmp_dir/$domain.$digest.png"
+        output="$out_dir/$domain.$digest.png"
+      fi 
       IO:log "shot-scraper [$site] => [$temppng]"
       shot-scraper "$site" -o "$temppng" --width "$width" --height $height &>> "$log_file"
 
-      output="$out_dir/$domain.$digest.png"
       if [[ -f $temppng ]] ; then
           IO:log "[$temppng] => [$output]"
           if [[ -f "$output" ]] ; then
@@ -99,8 +108,7 @@ Script:main() {
       else 
         IO:log "WARNING: could not find [$temppng]"
       fi
-    done \
-    < "$input"
+    done 
     ;;
 
   action2)

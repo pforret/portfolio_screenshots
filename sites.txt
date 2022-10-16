@@ -1,5 +1,15 @@
+# personal sites
 https://blog.forret.com
 https://www.forret.com
 https://peter.forret.com
+https://github.com/pforret
+
+# sideprojects
 https://toolstud.io
 https://www.churlie.com
+https://usage.toolstud.io
+
+# other people's projects
+https://onlythebestportraits.com
+https://maroshee.com
+https://ingevanderhaegen.be
