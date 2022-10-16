@@ -95,7 +95,6 @@ Script:main() {
       shot-scraper "$site" -o "$temppng" --width "$width" --height $height &>> "$log_file"
 
       if [[ -f $temppng ]] ; then
-          IO:log "[$temppng] => [$output]"
           if [[ -f "$output" ]] ; then
             rm "$output"
           else 
