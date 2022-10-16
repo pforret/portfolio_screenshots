@@ -52,6 +52,7 @@ flag|f|force|do not ask for confirmation (always yes)
 option|l|log_dir|folder for log files |log
 option|t|tmp_dir|folder for temp files|tmp
 option|o|out_dir|output folder for screenshots|images
+option|d|delay|seconds to wait for the git action to finish|80
 option|w|width|screenshot width|800
 option|h|height|screenshot height|800
 choice|1|action|action to perform|multi,gha:deploy,gha:update,check,env,update
@@ -117,7 +118,7 @@ Script:main() {
     setver auto
 
     IO:progress "wait for Github action..."
-    IO:countdown 60
+    IO:countdown "$delay"
 
     IO:progress "get Github updates..."
     git pull

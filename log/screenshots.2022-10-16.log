@@ -1126,6 +1126,7 @@ Screenshot of 'https://ingevanderhaegen.be' written to 'tmp/ingevanderhaegen_be.
 13:13:14 | --------------------------------------------------
 13:13:14 | [screenshots.sh] 0.2.2 started
 16:28:07 | [screenshots.sh] 0.2.2 started
+<<<<<<< HEAD
 14:28:53 | [screenshots.sh] 0.2.2 started
 Screenshot of 'https://blog.forret.com' written to 'tmp/blog_forret_com.png'
 14:28:57 | [tmp/blog_forret_com.png] => [images/blog_forret_com.png]
@@ -1167,3 +1168,6 @@ Screenshot of 'https://ingevanderhaegen.be' written to 'tmp/ingevanderhaegen_be.
 14:29:47 | [screenshots.sh] ended after 55 secs
 14:29:47 | --------------------------------------------------
 14:29:47 | [screenshots.sh] 0.2.2 started
+16:29:11 | [screenshots.sh] ended after 64 secs
+16:29:11 | --------------------------------------------------
+16:49:11 | [screenshots.sh] 0.2.2 started
