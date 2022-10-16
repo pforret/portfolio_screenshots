@@ -1018,3 +1018,57 @@ Screenshot of 'https://ingevanderhaegen.be' written to 'tmp/ingevanderhaegen_be.
 15:02:40 | --------------------------------------------------
 15:02:49 | [screenshots.sh] 0.1.2 started
 15:02:49 | --------------------------------------------------
+13:04:57 | [screenshots.sh] 0.1.2 started
+13:04:57 | shot-scraper [https://blog.forret.com] => [tmp/blog_forret_com.png]
+Screenshot of 'https://blog.forret.com' written to 'tmp/blog_forret_com.png'
+13:04:59 | [tmp/blog_forret_com.png] => [images/blog_forret_com.png]
+13:04:59 | first removing [images/blog_forret_com.png]
+13:04:59 | move [tmp/blog_forret_com.png] -> [images/blog_forret_com.png]
+13:04:59 | shot-scraper [https://www.forret.com] => [tmp/www_forret_com.png]
+Screenshot of 'https://www.forret.com' written to 'tmp/www_forret_com.png'
+13:05:01 | [tmp/www_forret_com.png] => [images/www_forret_com.png]
+13:05:01 | first removing [images/www_forret_com.png]
+13:05:01 | move [tmp/www_forret_com.png] -> [images/www_forret_com.png]
+13:05:01 | shot-scraper [https://peter.forret.com] => [tmp/peter_forret_com.png]
+Screenshot of 'https://peter.forret.com' written to 'tmp/peter_forret_com.png'
+13:05:03 | [tmp/peter_forret_com.png] => [images/peter_forret_com.png]
+13:05:03 | first removing [images/peter_forret_com.png]
+13:05:03 | move [tmp/peter_forret_com.png] -> [images/peter_forret_com.png]
+13:05:03 | shot-scraper [https://github.com/pforret] => [tmp/github_com.6e1aca.png]
+Screenshot of 'https://github.com/pforret' written to 'tmp/github_com.6e1aca.png'
+13:05:05 | [tmp/github_com.6e1aca.png] => [images/github_com.6e1aca.png]
+13:05:05 | first removing [images/github_com.6e1aca.png]
+13:05:05 | move [tmp/github_com.6e1aca.png] -> [images/github_com.6e1aca.png]
+13:05:05 | shot-scraper [https://toolstud.io] => [tmp/toolstud_io.png]
+Screenshot of 'https://toolstud.io' written to 'tmp/toolstud_io.png'
+13:05:06 | [tmp/toolstud_io.png] => [images/toolstud_io.png]
+13:05:06 | first removing [images/toolstud_io.png]
+13:05:06 | move [tmp/toolstud_io.png] -> [images/toolstud_io.png]
+13:05:06 | shot-scraper [https://www.churlie.com] => [tmp/www_churlie_com.png]
+Screenshot of 'https://www.churlie.com' written to 'tmp/www_churlie_com.png'
+13:05:08 | [tmp/www_churlie_com.png] => [images/www_churlie_com.png]
+13:05:08 | first removing [images/www_churlie_com.png]
+13:05:08 | move [tmp/www_churlie_com.png] -> [images/www_churlie_com.png]
+13:05:08 | shot-scraper [https://usage.toolstud.io] => [tmp/usage_toolstud_io.png]
+Screenshot of 'https://usage.toolstud.io' written to 'tmp/usage_toolstud_io.png'
+13:05:09 | [tmp/usage_toolstud_io.png] => [images/usage_toolstud_io.png]
+13:05:09 | first removing [images/usage_toolstud_io.png]
+13:05:09 | move [tmp/usage_toolstud_io.png] -> [images/usage_toolstud_io.png]
+13:05:09 | shot-scraper [https://onlythebestportraits.com] => [tmp/onlythebestportraits_com.png]
+Screenshot of 'https://onlythebestportraits.com' written to 'tmp/onlythebestportraits_com.png'
+13:05:13 | [tmp/onlythebestportraits_com.png] => [images/onlythebestportraits_com.png]
+13:05:13 | first removing [images/onlythebestportraits_com.png]
+13:05:13 | move [tmp/onlythebestportraits_com.png] -> [images/onlythebestportraits_com.png]
+13:05:13 | shot-scraper [https://maroshee.com] => [tmp/maroshee_com.png]
+Screenshot of 'https://maroshee.com' written to 'tmp/maroshee_com.png'
+13:05:15 | [tmp/maroshee_com.png] => [images/maroshee_com.png]
+13:05:15 | first removing [images/maroshee_com.png]
+13:05:15 | move [tmp/maroshee_com.png] -> [images/maroshee_com.png]
+13:05:15 | shot-scraper [https://ingevanderhaegen.be] => [tmp/ingevanderhaegen_be.png]
+Screenshot of 'https://ingevanderhaegen.be' written to 'tmp/ingevanderhaegen_be.png'
+13:05:18 | [tmp/ingevanderhaegen_be.png] => [images/ingevanderhaegen_be.png]
+13:05:18 | first removing [images/ingevanderhaegen_be.png]
+13:05:18 | move [tmp/ingevanderhaegen_be.png] -> [images/ingevanderhaegen_be.png]
+13:05:18 | [screenshots.sh] ended after 22 secs
+13:05:18 | --------------------------------------------------
+13:05:18 | [screenshots.sh] 0.1.2 started
