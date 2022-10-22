@@ -1,8 +1,11 @@
 # personal sites
 https://blog.forret.com
 https://www.forret.com
-https://peter.forret.com
 https://github.com/pforret
+
+# photography
+https://www.tangopaparazzo.com
+https://peter.forret.com
 
 # bashful scripting
 https://blog.forret.com/portfolio/bashful/
