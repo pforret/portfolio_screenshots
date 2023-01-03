@@ -21,3 +21,27 @@ Screenshot of 'https://ingevanderhaegen.be' written to 'tmp/ingevanderhaegen_be.
 13:53:13 | [screenshots.sh] ended after 64 secs
 13:53:13 | --------------------------------------------------
 13:53:13 | [screenshots.sh] 0.2.3 started
+13:57:15 | [screenshots.sh] 0.2.3 started
+Screenshot of 'https://blog.forret.com' written to 'tmp/blog_forret_com.png'
+Screenshot of 'https://www.forret.com' written to 'tmp/www_forret_com.png'
+Screenshot of 'https://github.com/pforret' written to 'tmp/github_com.6e1aca.png'
+Screenshot of 'https://cv.forret.com/' written to 'tmp/cv_forret_com.png'
+Screenshot of 'https://www.tangopaparazzo.com' written to 'tmp/www_tangopaparazzo_com.png'
+Screenshot of 'https://peter.forret.com' written to 'tmp/peter_forret_com.png'
+Screenshot of 'https://blog.forret.com/portfolio/bashful/' written to 'tmp/blog_forret_com.381c88.png'
+Screenshot of 'https://github.com/pforret/bashew' written to 'tmp/github_com.3bd4e0.png'
+Screenshot of 'https://www.getrevue.co/profile/bashful' written to 'tmp/www_getrevue_co.b35422.png'
+Screenshot of 'https://www.basher.it/package/' written to 'tmp/www_basher_it.c19359.png'
+Screenshot of 'https://toolstud.io' written to 'tmp/toolstud_io.png'
+Screenshot of 'https://www.churlie.com' written to 'tmp/www_churlie_com.png'
+Screenshot of 'https://usage.toolstud.io' written to 'tmp/usage_toolstud_io.png'
+Screenshot of 'https://splashing.forret.com/' written to 'tmp/splashing_forret_com.png'
+Screenshot of 'https://nuuz.io/tech' written to 'tmp/nuuz_io.6da9ea.png'
+Screenshot of 'https://onlythebestportraits.com' written to 'tmp/onlythebestportraits_com.png'
+Screenshot of 'https://maroshee.com' written to 'tmp/maroshee_com.png'
+Screenshot of 'https://ingevanderhaegen.be' written to 'tmp/ingevanderhaegen_be.png'
+Screenshot of 'https://gamzeyerci.com' written to 'tmp/gamzeyerci_com.png'
+13:58:32 | WARNING: could not find [images/gamzeyerci_com.png]
+13:58:32 | [screenshots.sh] ended after 77 secs
+13:58:32 | --------------------------------------------------
+13:58:32 | [screenshots.sh] 0.2.3 started
