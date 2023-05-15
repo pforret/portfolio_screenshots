@@ -2,7 +2,7 @@
 https://blog.forret.com
 https://www.forret.com
 https://github.com/pforret
-https://cv.forret.com/
+https://cv.forret.com
 
 # photography
 https://www.tangopaparazzo.com
@@ -16,9 +16,10 @@ https://www.basher.it/package/
 
 # sideprojects
 https://toolstud.io
+https://blog.toolstud.io
 https://www.churlie.com
 https://usage.toolstud.io
-https://splashing.forret.com/
+https://splashing.forret.com
 https://nuuz.io/tech
 https://wattpeakhours.com
 
