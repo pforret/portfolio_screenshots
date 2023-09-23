@@ -13,6 +13,7 @@ https://blog.forret.com/portfolio/bashful/
 https://github.com/pforret/bashew
 https://www.getrevue.co/profile/bashful
 https://www.basher.it/package/
+https://bash.forret.com/
 
 # sideprojects
 https://toolstud.io
@@ -24,7 +25,7 @@ https://nuuz.io/tech
 https://wattpeakhours.com
 
 # other people's projects
-https://onlythebestportraits.com
+https://www.onlythebestportraits.com/
 https://maroshee.com
 https://ingevanderhaegen.be
 https://gamzeyerci.com
